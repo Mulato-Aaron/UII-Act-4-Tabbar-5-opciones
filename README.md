@@ -1,3 +1,18 @@
+# PROMPT
+"Actúa como un desarrollador experto en Flutter. Tengo una aplicación de estilo Steam con un Drawer y rutas nombradas. Necesito realizar los siguientes cambios estructurales:
+
+Refactorización de Navegación: Elimina el Drawer de la clase Inicio y reemplázalo por un BottomNavigationBar.
+
+Gestión de Estado: Convierte la clase Inicio en un StatefulWidget para manejar el cambio de pestañas mediante un _selectedIndex y una lista de widgets (_paginas).
+
+Configuración Visual: La BottomNavigationBar debe ser de tipo fixed, con color de fondo #171a21, iconos en blanco y el icono seleccionado en color #66c0f4.
+
+Secciones y Orden: Las pestañas deben ser: Productos (local_offer), Técnicos (build), Usuarios (person), Desarrolladores (code) y la nueva sección Editores (edit).
+
+Creación de Pantalla Nueva: Genera el archivo editores.dart siguiendo exactamente este esquema minimalista: un Scaffold con AppBar (título "Editores") y un body con un Center que contenga un Image.network de 200x200 con BoxFit.cover (usa la URL: https://raw.githubusercontent.com/Mulato-Aaron/imagenes1/refs/heads/main/pslogo.png).
+
+Código Limpio: Asegúrate de que todas las páginas importadas se muestren dentro del body del Scaffold principal de la clase Inicio al cambiar de pestaña."
+
 # WEB
 <img width="496" height="813" alt="image" src="https://github.com/user-attachments/assets/23749557-8b1f-426c-992f-13b8c2cd09d3" />
 <img width="498" height="811" alt="image" src="https://github.com/user-attachments/assets/d86ee041-261a-4988-af91-b19e511f45d2" />
